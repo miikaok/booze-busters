@@ -1,0 +1,17 @@
+/* Set base font and font-size for consistency */
+html {
+  font-size: 62.5%; /* 1rem = 10px */
+}
+
+/* Set the body to 100% height and width */
+body {
+  width: calc(100%);
+  height: calc(100%);
+}
+
+/* Remove default margin and padding from all elements */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
