@@ -10,9 +10,19 @@ import {
   FileRoutes,
 } from 'solid-start';
 
+import { io } from 'socket.io-client';
+
 // Styles
 import './root.css';
 import 'bulma/css/bulma.min.css';
+
+const socket = io('ws://65.108.152.238:3000', {
+  reconnectionDelayMax: 10000,
+});
+
+socket.on('connect', () => {
+  console.log('sa');
+});
 
 export default function Root() {
   return (
