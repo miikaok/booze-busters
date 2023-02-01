@@ -1,15 +1,15 @@
 {
   "name": "client",
   "scripts": {
-    "dev": "solid-start dev",
-    "build": "solid-start build",
-    "start": "solid-start start"
+    "dev": "solid-start dev --host",
+    "start": "solid-start build && solid-start start"
   },
   "type": "module",
   "dependencies": {
     "@solidjs/meta": "^0.28.2",
     "@solidjs/router": "^0.7.0",
     "bulma": "^0.9.4",
+    "socket.io-client": "^4.5.4",
     "solid-js": "^1.6.9",
     "solid-start": "^0.2.15",
     "undici": "^5.15.1"
