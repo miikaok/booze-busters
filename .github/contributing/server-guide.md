@@ -34,7 +34,7 @@ You can download it here: [https://nodejs.org/en/download/](https://nodejs.org/e
 
 ## Setting up the environment
 
-Run the _init-env.sh_ shell script located in the scripts folder to fully set up the development environment. This will completely skip the **Installing dependencies** and **Environment variables** steps. You can go straight to the **Running the server** step after this step. This script will install pnpm locally to the project if it is not installed on the system before this script is run.
+Run the _init-env.sh_ shell script located in the scripts folder to fully set up the development environment. This will completely skip the **Installing dependencies** and **Environment variables** steps. You can go straight to the **Running the server** step after this step.
 
 ### Prerequisites
 
