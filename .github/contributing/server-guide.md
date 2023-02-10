@@ -12,10 +12,11 @@ I suggest reading the [Github's guide on forking projects.](https://guides.githu
 
 ## Visual Studio Code Setup
 
-I also recommend the use of Visual Studio Code as your IDE, with the following extensions installed:
+It is also recommended that you use Visual Studio Code as your IDE with the following extensions installed:
 
 - [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)
 - [Prettier - Code formatter](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)
+- [Prisma](https://marketplace.visualstudio.com/items?itemName=Prisma.prisma)
 - [JavaScript and Typescript Nightly](https://marketplace.visualstudio.com/items?itemName=ms-vscode.vscode-typescript-next)
 
 ## Installing Docker
