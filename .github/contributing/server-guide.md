@@ -89,10 +89,35 @@ This should add a _node_modules_ directory inside the _server_ directory.
 
 ## Environment Variables (alternative)
 
-Run the shell script _init-env.sh_ located in the scripts folder, or copy the _.env.example_ file manually and modify the .env file as needed. The .env file must be in the server directory for the server to run.
+Before running the server, you must add a valid environment variable to the .env file in the server root. The server will not run without a valid environment variable.
+
+The easiest way is to copy the whole .env.example file and rename it to .env. You can do this by running this command:
 
 ```
-./scripts/init-env.sh
+cp .env.example .env
+```
+
+The second way is to create a new .env file with these environment variables:
+
+```
+CORE_DATABASE=booze-busters
+
+DB_HOST=localhost
+
+POSTGRES_PORT=5432
+POSTGRES_USER=postgres
+POSTGRES_PASSWORD=postgres
+
+REDIS_HOST=localhost
+REDIS_PORT=6379
+
+PGADMIN_DEFAULT_EMAIL=test@boozebusters.net
+PGADMIN_DEFAULT_PASSWORD=postgres
+PGADMIN_PORT=54321
+
+DATABASE_URL=postgresql://${POSTGRES_USER}:${POSTGRES_PASSWORD}@${DB_HOST}:${POSTGRES_PORT}/${CORE_DATABASE}?schema=public
+
+ADMIN_PASSWORD=123abc
 ```
 
 **Finally! You're done with the setup and installation, now you can run the server and start developing!**
