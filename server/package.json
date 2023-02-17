@@ -1,7 +1,9 @@
 {
-  "name": "server",
+  "name": "booze-busters-server",
   "version": "1.0.0",
   "description": "",
+  "author": "miikaok",
+  "license": "ISC",
   "main": "dist/src/server.js",
   "engines": {
     "npm": ">=8.3.1",
@@ -16,7 +18,6 @@
     "test": "cross-env ./scripts/run-tests.sh"
   },
   "dependencies": {
-    "@jest/types": "^29.4.1",
     "@prisma/client": "^4.2.1",
     "cors": "^2.8.5",
     "cross-env": "^7.0.2",
@@ -38,8 +39,5 @@
     "ts-jest": "^29.0.1",
     "ts-node-dev": "^2.0.0",
     "typescript": "^4.5.5"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC"
+  }
 }

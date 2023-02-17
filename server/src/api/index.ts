@@ -24,7 +24,7 @@ class API {
   }
 
   private setupRouting() {
-    // this.express.use('/', router);
+    //this.express.use('/', router);
   }
 }
 

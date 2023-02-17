@@ -1,7 +1,7 @@
 #!/bin/sh
 
 # Setup the docker dependencies (Postgres, PGAdmin and Redis)
-docker compose up --build -d
+docker-compose up --build -d
 
 # Migrate the development database.
 # This will remove any data from it and apply any missing migrations
